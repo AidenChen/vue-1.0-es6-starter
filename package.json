@@ -3,12 +3,9 @@
   "version": "0.0.0",
   "description": "A Vue.js starter.",
   "author": "AidenChen",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "test": "",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
@@ -55,5 +52,6 @@
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0",
     "webpack-merge": "^0.8.3"
-  }
+  },
+  "license": "MIT"
 }
